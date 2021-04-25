@@ -12,11 +12,75 @@
         <title>Producto Comercial</title>
     </head>
     <body>
-        <header>
-            
+        <header id="header">
+            <img id="header-img" src="./img/Logo.jpg" alt="Logo">
+            <nav id="nav-bar">
+                <ul class="listaNavegador">
+                  <li><a class="nav-link" href="#seccion1">Quienes Somos</a></li>
+                  <li><a class="nav-link" href="#seccion2">Nuestros Materiales</a></li>
+                  <li><a class="nav-link" href="#seccion3">Nuestros Productos</a></li>
+                </ul>
+              </nav>
         </header>
         <main>
-            
+            <section id="correo">
+                <h1>Recibe nuestros folletos</h1>
+                <form action="https://www.freecodecamp.com/email-submit" id="form">
+                    <input type="email" name="email" id="email" placeholder="Ingrese su correo" required>
+                    <br>
+                    <input type="submit" name="email" id="submit" value="enviar">
+                </form>
+            </section>
+            <br>
+            <section id="seccion1">
+                <h1>Quienes Somos</h1>
+                <p>Somos fabricantes emprendedores de accesorios y joyeria de forma artesanal, nuestros pedidos son por encargos y hacemos envios nacionales</p>
+            </section>
+            <br>
+            <section id="seccion2">
+                <h1>Nuestros Materiales</h1>
+                <p>Trabajamos en Bronce, Oro, Plata y Acero, nuestras bisuterias son hechas con piedras coral, murano, mostacilla checha, perlas y miyuki y todos nuestros productos son hechos a mano</p>
+                <br>
+                <div id="contenedorVideo">
+                    <h3>Bisuteria Tendencia del 2021</h3>
+                    <iframe id="video" src="https://www.youtube.com/embed/wj41f1KTep0" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </section>
+            <br>
+            <section id="seccion3">
+                <h1>Nuestros Productos</h1>         
+            </section>
+            <div class="producto1">
+                <h3>Argolla de Patilla</h3>
+                <span>Argolla de acero, recamado con murano y mostacilla checa</span>
+                <h3>$30.000</h3>
+                <picture>
+                  <source media="(min-width:768px)" srcset="./img/producto1_large.jpg"/>
+                  <img src="./img/producto1_small.jpg" alt="Es una imágen de aretes de sandia"/>
+                </picture>
+                <input class="seleccionar" type="button" value="Seleccionar">
+              </div>
+              <div class="producto2">
+                <h3>Arbol de la Vida (Yggdrasil)</h3>
+                <span>Dije de bronce enchapados en oro con piedra coral</span>
+                <h3>$60.000</h3>
+                <picture>
+                    <source media="(min-width:768px)" srcset="./img/producto2_large.jpg"/>
+                    <img src="./img/producto2_small.jpg" alt="Es una imágen de collar de yggdrasil"/>
+                  </picture>
+                  <input class="seleccionar" type="button" value="Seleccionar">
+              </div>
         </main>
+        <footer class="footer">
+            <nav class="nav-footer">
+                <ul class="listaFooter">
+                  <li><a class="link-footer" href="#">Privacidad</a></li>
+                  <li><a class="link-footer" href="#">Terminos</a></li>
+                  <li><a class="link-footer" href="https://www.instagram.com/Crischarna/">Contacto</a></li>
+                </ul>
+              </nav>
+              <p>Copyright 2019, Crischarna</p>
+        </footer>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>
