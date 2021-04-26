@@ -19,12 +19,13 @@ body{
     flex-wrap: wrap;
     position:sticky;
     top: 0;
-    background: url("./img/cabeza_small.jpg");
+    background-color: black;
+    background-image: url("./img/cabeza_small.jpg");
     background-repeat:no-repeat;
     background-position-x: center;
     background-position-y:-7rem;
     background-size:40rem;
-  }
+}
 
 #header-img{
     width: 14rem;
@@ -32,6 +33,16 @@ body{
     margin-right: auto;
     border-radius: 50%;
     opacity:85%;
+}
+
+@media (max-width: 767px) {
+    #nav-img{
+        width: 0;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+        opacity:0;
+    }
 }
 
 #nav-bar{
