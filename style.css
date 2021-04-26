@@ -3,6 +3,225 @@
     margin: 0;
     padding: 0;
 }
+
 html{
     font-size: 62.5%;
+}
+
+body{
+    background: url("./img/fondo_small.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    position:sticky;
+    top: 0;
+    background: url("./img/cabeza_small.jpg");
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y:-7rem;
+    background-size:40rem;
+  }
+
+#header-img{
+    width: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    opacity:85%;
+}
+
+#nav-bar{
+    width: 100%;
+    background-color:darkblue;
+    text-align:center;
+    border-top-style:solid;
+    border-bottom-style:solid;
+    border-color:darkslateblue;
+}
+
+.listaNavegador{
+    list-style: none;
+    padding-left: 0rem;
+    font-size: 1.8rem;
+}
+
+.lista{
+    display: inline-block;
+    width: 30%;
+}
+
+.nav-link{
+    color: white;
+    padding: 0rem;
+    border-radius: 0rem;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color:darkturquoise;
+}
+
+.nav-link:active{
+    color: darkviolet;
+}
+
+h1{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:cursive;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:cursive;
+    color: white;
+}
+
+#form{
+    margin-left: 28%;  
+}
+
+#submit{
+    margin-left: 25%; 
+}
+
+p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    color: blanchedalmond;
+}
+
+#seccion1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#seccion2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#seccion3{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#contenedorVideo{
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#video{
+    width: 100%;
+}
+
+.imagenPrecio{
+    width: 84%;
+    margin: 1rem;
+    border-color: cornflowerblue;
+    border-style: solid;
+}
+
+.producto{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 20rem;
+    text-align: center;
+    border-style: solid;
+    border-color: blanchedalmond;
+    background-color:steelblue;
+}
+
+.tituloProducto{
+    background-color: cornflowerblue;
+    height: 2rem;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-footer{
+    width: 100%;
+    background-color:darkblue;
+    text-align:center;
+    border-top-style:solid;
+    border-color:darkslateblue;
+}
+
+.listaFooter{
+    list-style: none;
+    padding-left: 0rem;
+    font-size: 1.8rem;
+}
+
+.listaPie{
+    display: inline-block;
+    width: 30%;
+}
+
+.link-footer{
+    color: white;
+    padding: 0rem;
+    border-radius: 0rem;
+    text-decoration: none;
+}
+
+.link-footer:hover{
+    color:darkturquoise;
+}
+
+.link-footer:active{
+    color: darkviolet;
+}
+
+.copi{
+    margin: 0;
+}
+
+.seleccionar{
+    background-color: royalblue;
+    color: azure;
+    width: auto;
+    border-style:solid;
+    border-color: royalblue;
+    margin-bottom: 1rem;
+}
+
+.seleccionar:active{
+    background-color: purple;
+}
+
+#submit{
+    background-color: royalblue;
+    color: azure;
+    width: auto;
+    border-style:solid;
+    border-color: royalblue;
+    margin-top: 1rem;
+}
+
+#submit:active{
+    background-color: purple;
 }
