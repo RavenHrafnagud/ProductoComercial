@@ -20,20 +20,34 @@ body{
     position:sticky;
     top: 0;
     background-color: black;
-    /* background-image: url("./img/cabeza_small.jpg");
+    background-image: url("./img/cabeza_small.jpg");
     background-repeat:no-repeat;
     background-position-x: center;
     background-position-y:-7rem;
-    background-size:40rem; */
+    background-size:40rem;
 }
 
-#header-img{
+/* #header-img{
     width: 14rem;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
     opacity:85%;
+} */
+
+#header-img{
+    width: 100%;
+    border-radius: 50%;
+    opacity:85%;
+}
+
+#divLogo{
+    width: 14rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-radius: 50%;
+    opacity:85%; */
 }
 
 @media (max-width: 767px) {

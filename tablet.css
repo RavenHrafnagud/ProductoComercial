@@ -13,7 +13,7 @@ body{
 }
 
 @media (min-width: 767px) {
-    #header-img{
+    #divLogo{
         width: 0;
         margin-left: 0;
         margin-right: 0;
