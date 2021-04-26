@@ -20,11 +20,11 @@ body{
     position:sticky;
     top: 0;
     background-color: black;
-    background-image: url("./img/cabeza_small.jpg");
+    /* background-image: url("./img/cabeza_small.jpg");
     background-repeat:no-repeat;
     background-position-x: center;
     background-position-y:-7rem;
-    background-size:40rem 28rem;
+    background-size:40rem; */
 }
 
 #header-img{
