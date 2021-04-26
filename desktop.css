@@ -1,0 +1,22 @@
+body{
+    background: url("./img/fondo_large.jpg");
+}
+
+.contenedor{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 4rem;
+}
+
+#email{
+    width: 20rem;
+}
+
+#contenedorVideo{
+    width: 60rem;
+}
+
+.producto{
+    margin-left:11%;
+    display: inline-block;
+}
